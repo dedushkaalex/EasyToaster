@@ -1,5 +1,6 @@
 import type { Toast, ToastType } from './types';
 
+// TODO: переписать или удалить
 const createToast = (message: string, type: ToastType = 'blank'): Toast => ({
   id: new Date().toISOString(),
   createdAt: Date.now(),
