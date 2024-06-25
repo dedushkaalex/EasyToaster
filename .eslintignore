@@ -1,0 +1,10 @@
+# files
+yarn.lock
+.temp
+.eslintrc.js
+prettier.config.js
+
+# dependencies
+dist/
+build/
+node_modules/
